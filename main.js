@@ -55,7 +55,7 @@ Vector3.prototype.dot = function(vector) {
 };
 Vector3.prototype.cross = function(vector) {
   return new Vector3(
-    this.y * vector.z - this.z * vector.y
+    this.y * vector.z - this.z * vector.y,
     this.z * vector.x - this.x * vector.z,
     this.x * vector.y - this.y * vector.x
   );
